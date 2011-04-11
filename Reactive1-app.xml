@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<application xmlns="http://ns.adobe.com/air/application/2.0">
+    <id>com.umxprime.ipad.reactive1</id>
+    <version>5</version>
+    <filename>Reactive1</filename>
+    <description></description>
+    <!-- To localize the description, use the following format for the description element.
+	<description>
+		<text xml:lang="en">English App description goes here</text>
+		<text xml:lang="fr">French App description goes here</text>
+		<text xml:lang="ja">Japanese App description goes here</text>
+	</description>
+	-->
+    <name>Reactive1</name>
+    <!-- To localize the name, use the following format for the name element.
+	<name>
+		<text xml:lang="en">English App name goes here</text>
+		<text xml:lang="fr">French App name goes here</text>
+		<text xml:lang="ja">Japanese App name goes here</text>
+	</name>
+	-->
+    <copyright></copyright>
+    <initialWindow>
+        <content>Reactive1.swf</content>
+        <systemChrome>standard</systemChrome>
+        <transparent>false</transparent>
+        <visible>true</visible>
+        <fullScreen>true</fullScreen>
+        <autoOrients>false</autoOrients>
+        <aspectRatio>portrait</aspectRatio>
+        <renderMode>gpu</renderMode>
+    </initialWindow>
+    <customUpdateUI>false</customUpdateUI>
+    <allowBrowserInvocation>false</allowBrowserInvocation>
+    <icon>
+        <image72x72>default72.png</image72x72>
+        <image48x48>default48.png</image48x48>
+        <image512x512>default512.png</image512x512>
+        <image57x57>default57.png</image57x57>
+        <image29x29>default29.png</image29x29>
+    </icon>
+    <iPhone>
+        <InfoAdditions><![CDATA[<key>UIDeviceFamily</key><array><string>2</string></array>]]></InfoAdditions>
+    </iPhone>
+</application>
